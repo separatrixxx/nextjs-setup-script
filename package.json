@@ -4,10 +4,13 @@
   "description": "A script to set up a Next.js project with additional configurations by separatrix",
   "main": "dist/setup.js",
   "bin": {
-    "next-setup": "./dist/index.js"
+    "nextjs-setup-script": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run build",
+    "prepack": "npm run build",
     "start": "ts-node src/index.ts"
   },
   "keywords": [
