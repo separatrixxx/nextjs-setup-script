@@ -9,6 +9,11 @@ A script to set up a Next.js project with additional configurations by separatri
 
 ```bash
 npx nextjs-setup-script <project-name>
+
+#or 
+
+npm run build
+npm run start <project-name>
 ```
 - The script will create a new Next.js project with the specified name and apply additional configurations
 
