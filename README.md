@@ -8,7 +8,7 @@ A script to set up a Next.js project with additional configurations by separatri
 - Run the following command, replacing <project-name> with your desired project name:
 
 ```bash
-npx nextjs-setup-script <project-name>
+npx nextjs-setup <project-name>
 
 #or 
 

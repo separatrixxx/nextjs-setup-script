@@ -1,10 +1,10 @@
 {
-  "name": "nextjs-setup",
-  "version": "1.0.1",
+  "name": "nextjs-setup-script",
+  "version": "1.0.5",
   "description": "A script to set up a Next.js project with additional configurations by separatrix",
   "main": "dist/setup.js",
   "bin": {
-    "nextjs-setup-script": "dist/index.js"
+    "nextjs-setup": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
