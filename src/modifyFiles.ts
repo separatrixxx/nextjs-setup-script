@@ -45,7 +45,7 @@ export const modifyFiles = (name: string): void => {
     'src/pages/index.tsx',
     'src/pages/404.tsx',
     'src/pages/500.tsx',
-    'src/styles/global.css',
+    'src/styles/globals.css',
   ];
 
   files.forEach(filePath => {
@@ -63,7 +63,7 @@ export const modifyFiles = (name: string): void => {
   if (fs.existsSync(globalCSSPath)) {
     const globalCSSContent = fs.readFileSync(globalCSSPath, 'utf8');
 
-    fs.writeFileSync('src/styles/global.css', globalCSSContent);
+    fs.writeFileSync('src/styles/globals.css', globalCSSContent);
   } else {
     spinner.fail(`Error: ${globalCSSPath} does not exist.`);
     shell.exit(1);
