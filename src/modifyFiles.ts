@@ -18,7 +18,6 @@ export const modifyFiles = (name: string): void => {
     { path: 'images.d.ts', description: 'Creating images.d.ts' },
     { path: '.stylelintrc.json', description: 'Creating .stylelintrc.json' },
     { path: '.env', description: 'Creating .env' },
-    { path: 'globals.css', description: 'Modifying src and public directories' }
   ];
 
   modifications.forEach(modification => {
