@@ -43,6 +43,7 @@ const modifyFiles = (name) => {
         { path: 'images.d.ts', description: 'Creating images.d.ts' },
         { path: '.stylelintrc.json', description: 'Creating .stylelintrc.json' },
         { path: '.env', description: 'Creating .env' },
+        { path: '.env.local', description: 'Creating .env.local' },
     ];
     modifications.forEach(modification => {
         const filePath = path.join(sourceDir, modification.path);
