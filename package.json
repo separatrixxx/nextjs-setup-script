@@ -1,6 +1,6 @@
 {
   "name": "nextjs-setup-script",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "A script to set up a Next.js project with additional configurations by separatrix",
   "main": "dist/setup.js",
   "bin": {
@@ -34,7 +34,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com//separatrixxx/nextjs-setup-script.git"
+    "url": "https://github.com//separatrixxx/nextjs-setup-script"
   },
-  "homepage": "https://github.com//separatrixxx/nextjs-setup-script#readme"
+  "homepage": "https://github.com//separatrixxx/nextjs-setup-script"
 }
